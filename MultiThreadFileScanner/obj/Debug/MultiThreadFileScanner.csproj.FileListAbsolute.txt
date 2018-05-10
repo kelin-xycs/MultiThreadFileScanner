@@ -1,0 +1,7 @@
+D:\老郭\一些研究\MultiThreadFileScanner\MultiThreadFileScanner\bin\Debug\MultiThreadFileScanner.exe.config
+D:\老郭\一些研究\MultiThreadFileScanner\MultiThreadFileScanner\bin\Debug\MultiThreadFileScanner.exe
+D:\老郭\一些研究\MultiThreadFileScanner\MultiThreadFileScanner\bin\Debug\MultiThreadFileScanner.pdb
+D:\老郭\一些研究\MultiThreadFileScanner\MultiThreadFileScanner\obj\Debug\MultiThreadFileScanner.csprojResolveAssemblyReference.cache
+D:\老郭\一些研究\MultiThreadFileScanner\MultiThreadFileScanner\obj\Debug\MultiThreadFileScanner.exe
+D:\老郭\一些研究\MultiThreadFileScanner\MultiThreadFileScanner\obj\Debug\MultiThreadFileScanner.pdb
+D:\老郭\一些研究\MultiThreadFileScanner\MultiThreadFileScanner\bin\Debug\测试文本.txt

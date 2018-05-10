@@ -1,0 +1,82 @@
+微软一年一度的开发者大会，给你带来全新的开发者体验
+
+Build 2018 主旨演讲的主题是 Azure 云和 AI、物联网、AR等技术，以及开发者相关内容的宣布。在今天的Build大会上，微软宣布目前已有超过7亿台设备运行Windows 10系统。去年这个数字为5亿。Office 365目前每个月有1.35亿活跃的商业用户，去年为1.2亿。
+
+微软今年Build大会的一大主题是说服开发人员相信，他们需要理解，以便将人工智能技术融入他们的应用之中。
+
+841562568573536677
+
+FPGA上的AI服务
+
+477969706015716305
+
+在今天的Build大会上，微软发布了Project Brainwave的“预览版”，这个平台，用FPGA在Azure云和边缘设备上实时运行深度学习模型。
+
+Brainwave最初亮相，是去年8月，微软在芯片行业论坛Hot Chips上展示了这个平台的部分特性。
+
+从当时公布的信息，可以看出这个平台可以分为三层：
+
+一个高性能分布式架构；
+一个整合到FPGA上的硬件深度神经网络引擎；
+一个用来部署预训练模型的编译器和运行时。
+当时，微软说这个平台支持微软自家的CNTK和Google的TensorFlow。
+
+今天微软发布的Project Brainwave“预览版”，其实就是由这个平台在云端驱动的Azure机器学习硬件加速模型。让外部客户和微软一样用FPGA来处理AI工作负载，这是第一步。
+
+微软还宣布了一个边缘设备上的“有限预览版”Project Brainwave。这里的边缘设备和我们平时所说的手机相机摄像头略有不同，指的是可以作为Azure IoT Edge设备使用的企业预置型服务器。戴尔和惠普企业是这个有限预览的首批合作伙伴。
+
+大型科技公司无论做什么起家，从苹果到Google再到Facebook，无一不关注芯片。在一众同行都在追求自研机器学习专用芯片的时候，微软发出了不同的声音。
+
+纳德拉在今天的发布会上说，以AI的发展速度来看，显然不该将今天的想法“锁定”到专用芯片上，还友情提醒各公司不要“被Google的TPU诱惑”。
+
+微软是FPGA的忠实拥趸，Project Brainwave所用的就是英特尔的FPGA。这种芯片的全称是 现场可编程门阵列（Field Programmable Gate Array）。
+
+这类芯片给微软带来了比Google TPU所使用的ASIC更大的灵活性，这家公司正逐步为整个数据中心部署FPGA，他们在FPGA上实现的机器学习性能，与那些专属芯片不相上下。
+
+Azure IoT Edge进展
+
+103817042505589829
+
+这是微软将人工智能、Azure服务、定制化应用装入物联网设备的一个工具。
+
+在IoT Hub服务之上，微软发构建了Azure IoT Edge，支持微软的认知服务API，支持Event Grid和Kubernetes容器。此外，微软还开源了Azure IoT Edge runtime，以便开发者按需部署。
+
+值得注意的是，边缘设备可用的认知服务目前只有视觉。不过微软计划稍后会推出更多服务。
+
+据介绍，在Azure IoT Edge的帮助下，工业设备、无人机等即便在没有联网的情况下，也能运行机器学习模型。
+
+在今天的大会上，微软宣布Azure IoT Edge已经和高通、大疆达成合作。
+
+语音AI工具“四合一”
+
+微软旗下的四种语音相关AI工具，这次也被统一起来。其中包括微软语音识别服务、文本到语音API、定制化语音模型和翻译服务。此前这些工具都作为单独的API存在（Bing Speech API、Speaker Recognition API、Custom Speech Service、Translator Speech API），并且单独定价。
+
+手写和形状识别
+
+微软还发布了Project Ink Analysis，这是一个全新的服务。借助这个服务，开发者可以为应用增加手写和其他形状的识别。
+
+开发者工具
+
+对于开发者来说，Visual Studio现在支持“实时共享”功能，可在不离开开发环境的情况下就代码进行协作。IntelliCode是一个新推出的实验性工具，利用 AI 来增强软件开发质量，提供智能建议。这个工具能让Visual Studio智能完成代码，根据上下文给出编程建议，而不是简单根据字母排序推荐API，不过目前只支持Visual Studio 2017中的C#代码。其他还包括Azure Kubernetes推出测试版等等内容。
+
+464003088278988274
+
+530821537665511357
+
+对于我们.NET 开发的最大利好消息就是.NET Core 3.0/.NET Famework 4.8的计划，2019 年发布的.NET Core 3.0 即将支持Windows桌面系统以及.NET Core 2.1 RC版本的发布。特别是Windows Forms，Windows Presentation Framework（WPF）和UWP XAML。您将能够在.NET Core上运行新的和现有的Windows桌面应用程序，并享受.NET Core提供的所有优势。
+
+ 
+
+
+
+具体请参考官方博客 https://blogs.msdn.microsoft.com/dotnet/2018/05/07/net-core-3-and-support-for-windows-desktop-applications/ 
+
+.NET Core 2.1 Release Candidate 并准备好生产性使用
+
+微软宣布了.NET Core 2.1版本的RC版本，ASP.NET Core和Entity Framework Core。Go-Live许可证现在与发布候选版本一起发布，允许用户在软件开发中高效地使用该产品。但是，过去表明，在转换到RTM版本时，代码更改可能仍然是必需的，微软有对应的技术支持 。
+
+.NET 2018会议上的.NET Core展台
+
+2.1版本特别为Entity Framework Core和ASP.NET Core带来了广泛的创新。对于Entity Framework Core，微软关闭了相对于传统ADO.NET实体框架的四个主要弱点。一方面，分组现在实际上被发送到数据库并且不再在内存中执行，尤其是对于大量数据，性能的提升是巨大的。其次，Entity Framework Core现在还提供从其前任已知的链接记录的自动延迟加载。但是，它在默认情况下是关闭的，但开发人员必须明确地将其打开以防止无意识重新加载循环中的数据。您可以选择使用自动生成的运行时代理的延迟加载或ORM映射器支持的变体，并添加实体类。作为第三点，微软还建立在Entity Framework Core的System.Transactions.TransactionScope对环境事务的支持。最后，也可以将结果集映射到非实体类型。它允许开发人员映射数据库视图，没有主键的表以及SQL命令，存储过程和表值函数的结果，即使它们的结果集与现有表的结构不匹配。另外，Entity Framework Core还具有全新的功能：新推出的Value Converter允许在实现和保存对象时进行值转换。在2月份宣布的Cosmos Framework Core的Cosmos DB驱动程序尚未准备好，可以在GitHub上阅读。
+
+ASP.NET Core 2.1的另一个新功能是，可以在Microsoft Web服务器Internet信息服务（IIS）的过程中直接使用更强大的托管功能。在以前的版本中，ASP.NET Core始终运行在它自己的进程中（Kestrel或Web Listener别名http.sys）。虽然微软的双向Web浏览器通信框架SignalR的端口也达到了发布候选状态，但WebHooks库仍处于预览状态。微软在Github上证明了这个功能还不够充分，因为在ASP.NET Core 2.1环境下WebHooks的处理不够。
