@@ -78,6 +78,8 @@ namespace MultiThreadFileScanner
             {
                 if (runningThreadCount == 0)
                     break;
+
+                System.Threading.Thread.Sleep(1000);
             }
 
             Console.WriteLine("Scan End.");
